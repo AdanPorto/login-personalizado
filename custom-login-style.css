@@ -1,0 +1,89 @@
+.login h1 a { /* Aqui será seu logo */
+    background-image: url('/wp-content/uploads/2023/03/Logotipo-P3A-02-3-scaled.webp'); 
+    background-size: 300px !important;
+    height: 200px;
+    width: 200px !important;
+}
+
+body.login { /* Cor de fundo da página */
+    background-image: url('https://seeyou.com.br/wp-content/uploads/2024/08/capa-2-1.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#loginform { /* Cor de fundo do formulário de login */
+    background-color: transparent !important;
+    border: none !important;
+}
+
+#lostpasswordform { /* Cor de fundo do formulário de recuperação de senha */
+    background-color: transparent !important;
+    border: none !important;
+}
+
+p label { /* Cor dos textos */
+    color: #FFF !important;
+}
+
+div label { /* Cor dos títulos */
+    color: #FFF !important;
+}
+
+p input { /* Customizar o campo do e-mail */
+    background-color: #2F3136 !important;
+    color: #FFF !important;
+    border: none !important;
+    border-radius: 10px !important;
+    font-size: 15px;
+    padding: 15px;
+}
+
+div input { /* Customizar o campo da senha */
+    background-color: #2F3136 !important;
+    color: #FFF !important;
+    border: none !important;
+    border-radius: 10px !important;
+    font-size: 15px;
+    padding: 15px;
+}
+
+#backtoblog { /* Cor do "voltar ao site" */
+    color: #FFF !important;
+}
+
+#wp-submit { /* Customizar o botão */
+    width: 100%;
+    padding: 10px 20px 10px 20px;
+    background-color: #0070BC !important;
+    color: #FFF;
+    margin-top: 20px;
+}
+
+#wp-submit:hover { /* Botão com hover, caso queira */
+    background-color: #0064a7 !important;
+}
+
+.dashicons-visibility { /* Customizar o ícone da senha */
+    color: #a8a8a8;
+}
+
+.dashicons-hidden { /* Customizar o ícone da senha */
+    color: #a8a8a8;
+}
+
+a { /* Customizar o "esqueceu a senha" */
+    color: #a8a8a8 !important;
+}
+
+#nav { /* Customizar o espaço entre as opções e o formulário */
+    margin-top: -15px !important;
+}
+
+.message { /* Customizar a mensagem */
+    padding: 15px !important;
+    border-radius: 10px !important;
+    background-color: #646a75 !important;
+    color: #FFF !important;
+    border-left: 0px !important;
+}
